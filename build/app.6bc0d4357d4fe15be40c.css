@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url(/static/font/NotoSansCJKKR-Light.6980320c56970957c8810b5de0d9671d.woff) format("woff"), url(/static/font/NotoSansCJKKR-Light.cbd8972f7edbcb2cb136bfe74b9d2000.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/static/font/NotoSansCJKKR-Regular.cfddc921ed85e54d69527dd7ab728a29.woff) format("woff"), url(/static/font/NotoSansCJKKR-Regular.471553e26cd19e067eb87ef0e98dc2ec.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 500;
+  src: url(/static/font/NotoSansCJKKR-Medium.5102310dfc6377699dcbd2f6ddd273e6.woff) format("woff"), url(/static/font/NotoSansCJKKR-Medium.c5c73df8a88f854ef6e84423f63f3b4a.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/static/font/NotoSansCJKKR-Bold.ec10c2f9e8722d8cbbfb583c282a424d.woff) format("woff"), url(/static/font/NotoSansCJKKR-Bold.cbca31b8f6167edb980c63243d5b48e2.woff2) format("woff2"); }
+
+img {
+  display: block;
+  width: 100px; }
+
+.ex_css {
+  font-family: 'Noto Sans CJK KR';
+  font-weight: 300;
+  color: blue; }
+
+.ex_css_bg {
+  width: 100px;
+  height: 100px;
+  background: url(/static/image/ex.28f81e93a20a189502c5a61561098c2b.jpg) no-repeat center center;
+  background-size: cover; }
+
+@font-face {
+  font-family: 'NanumSquare';
+  font-style: normal;
+  font-weight: 300;
+  src: url(/static/font/NanumSquare-Light.e19d4a58a10be563c4e6b07339843bd4.woff) format("woff"); }
+
+@font-face {
+  font-family: 'NanumSquare';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/static/font/NanumSquare-Regular.7af80c183c3f7c8405faf137d56a55f4.woff) format("woff"); }
+
+@font-face {
+  font-family: 'NanumSquare';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/static/font/NanumSquare-Bold.5cc5322107e581d5a53011fd6c99b3df.woff) format("woff"); }
+
+@font-face {
+  font-family: 'NanumSquare';
+  font-style: normal;
+  font-weight: 800;
+  src: url(/static/font/NanumSquare-ExtraBold.6d33b9ed1a7ace9079dd10899cc0fcfb.woff) format("woff"); }
+
+.ex_scss {
+  font-family: 'NanumSquare';
+  font-weight: 300;
+  color: red; }
+
+.ex_scss_bg {
+  width: 100px;
+  height: 100px;
+  background: url(/static/image/ex.28f81e93a20a189502c5a61561098c2b.jpg) no-repeat center center;
+  background-size: cover; }
+
