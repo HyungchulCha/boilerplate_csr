@@ -76,8 +76,8 @@ module.exports = {
         reactBundle: {
           test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
           name: 'react.bundle',
-          priority: 2, // 우선순위가 높아야 리액트 모듈이 vendors 그룹에 들어가지 않는다.
-          minSize: 100, // 파일크기 제한에 걸리지 않도록 낮은 값을 설정한다.
+          priority: 2,
+          minSize: 100,
           reuseExistingChunk: true,
         },
       },
