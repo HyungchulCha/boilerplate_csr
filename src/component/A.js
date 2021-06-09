@@ -17,13 +17,13 @@ const exEmotionReactBg = css`
 const A = () => {
   return (
     <div>
-      <img src={exImgSrc} />
-      <p className='ex_css'>가나다라마바사아자차카타파하0123456789abcdefghijklmnopqrstuvwxyz</p>
-      <div className='ex_css_bg'></div>
-      <p className='ex_scss'>가나다라마바사아자차카타파하0123456789abcdefghijklmnopqrstuvwxyz</p>
-      <div className='ex_scss_bg'></div>
+      <img src={exImgSrc} alt="exImg" />
+      <p className="ex_css">가나다라마바사아자차카타파하0123456789abcdefghijklmnopqrstuvwxyz</p>
+      <div className="ex_css_bg" />
+      <p className="ex_scss">가나다라마바사아자차카타파하0123456789abcdefghijklmnopqrstuvwxyz</p>
+      <div className="ex_scss_bg" />
       <p css={exEmotionReact}>가나다라마바사아자차카타파하0123456789abcdefghijklmnopqrstuvwxyz</p>
-      <div css={exEmotionReactBg}></div>
+      <div css={exEmotionReactBg} />
       <B />
     </div>
   );

@@ -19,7 +19,7 @@ const C = () => {
   return (
     <>
       <ExEmotionStyled>가나다라마바사아자차카타파하0123456789abcdefghijklmnopqrstuvwxyz</ExEmotionStyled>
-      <ExEmotionStyledBg></ExEmotionStyledBg>
+      <ExEmotionStyledBg />
       <ExSvgIcon style={{ width: '48px', height: '48px', fill: 'red' }} />
       <ExSvgIconComponent style={{ width: '48px', height: '48px', fill: 'red' }} />
     </>
